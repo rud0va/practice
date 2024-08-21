@@ -1,0 +1,14 @@
+.container {
+    display: flex;
+}
+
+.item {
+    height: 100px;
+    background-color: cornflowerblue;
+    margin: 10px;
+    flex-grow: 1;
+}
+
+.item:nth-child(2) {
+    flex-grow: 2;
+}
