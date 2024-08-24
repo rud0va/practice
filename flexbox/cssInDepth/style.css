@@ -1,0 +1,20 @@
+/* BASE STYLING */
+
+.container {
+    background-color: aliceblue;
+}
+
+.items {
+    width: 150px;
+    height: 150px;
+    background-color: coral;
+    border: .5em solid cornflowerblue;
+    border-radius: .5em;
+    margin: .5em;
+}
+
+/* FLEXBOX */
+
+.container {
+  display: inline-flex;  
+}
