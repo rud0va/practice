@@ -76,6 +76,78 @@ body * + * {
     flex: 2;
 }
 
+/* Sidebar */
+
 .column-sidebar {
     flex: 1;
+    display: flex;
+    flex-direction: column;
 }
+
+.column-sidebar > .tile {
+    flex: 1;
+}
+
+/* Form Element */
+
+.login-form h3 {
+    text-align: end;
+    text-transform: uppercase;
+}
+
+.login-form input:not([type=checkbox]):not([type=radio]) {
+    display: block;
+    width: 100%;
+    margin-top: 0;
+}
+
+.login-form button {
+    margin-top: 1em;
+    border: 1px solid #cc6b5a;
+    background-color: white;
+    padding: .5em 1em;
+    cursor: pointer;
+}
+
+/* Cost Element */
+
+.centered {
+    text-align: center;
+}
+
+small {
+    text-transform: uppercase;
+}
+
+.cost {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: .7;
+}
+
+.cost > span {
+    margin-top: 0;
+}
+
+.cost .cost-currency {
+    font-size: 2rem;
+}
+
+.cost .cost-dollars {
+    font-size: 4rem;
+}
+
+.cost .cost-cents {
+    font-size: 1.5rem;
+    align-self: flex-start;
+}
+
+.cta-button {
+    display: block;
+    background: #cc6b5a;
+    color: white;
+    padding: .5em 1em;
+    text-decoration: none;
+}
+
