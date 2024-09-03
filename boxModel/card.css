@@ -1,0 +1,105 @@
+/*  BASE STYLES */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #d9e2e8;
+  }
+
+/* CONATAINER */
+
+.container {
+width: 600px;
+margin: 100px auto;
+padding: 0 20px;
+}
+
+/* CARD STYLES */
+
+.card {
+background-color: #fff;
+border-radius: 10px;
+padding: 20px 20px 30px;
+margin-bottom: 20px;
+box-shadow: 0 4px 6px rgba(0, 0, 0, .1);
+}
+
+.card h2 {
+margin-bottom: 20px;
+font-size: 27px;
+}
+
+.card p {
+font-size: 18px;
+font-weight: 500;
+color: #333;
+margin-bottom: 30px;
+}
+
+
+.card a {
+/* display: inline-block; */
+font-size: 18px;
+padding: 10px 20px;
+background-color: #333;
+color: #fff;
+text-decoration: none;
+border-radius: 5px;
+}
+
+.card p {
+
+}
+
+/* HEADING COLORS */
+
+.card:nth-of-type(1) h2 {
+color: #e04553;
+}
+
+.card:nth-of-type(2) h2 {
+color: #0d4ba3;
+}
+
+.card:nth-of-type(3) h2 {
+color: #512b22;
+}
+
+/* LINK COLORS */
+
+.card:nth-of-type(1) a {
+background-color: #e04553;
+}
+
+.card:nth-of-type(2) a {
+background-color: #0d4ba3;
+}
+
+.card:nth-of-type(3) a {
+background-color: #512b22;
+}
+
+.card a:hover {
+    opacity: 0.9;;
+}
+
+/* BACKGROUND IMAGES */
+
+.card:nth-of-type(1) {
+background: #fff url(./images/sporty.png) no-repeat center right/200px;
+}
+
+.card:nth-of-type(2) {
+    background: #fff url(./images/casual.png) no-repeat center right/200px;
+}
+
+.card:nth-of-type(3) {
+    background: #fff url(./images/formal.png) no-repeat center right/200px;
+}
