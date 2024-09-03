@@ -1,0 +1,59 @@
+/* BASE STYLES */
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    /* margin: 0; */
+    /* padding: 0; */
+}
+
+body {
+    font-family: "Lato", sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* HEADER */
+
+.header {
+    background-color: #5e175b;
+    color: #fff;
+}
+
+.header h1 {
+    text-align: center;
+    font-size: 40px;
+    text-indent: 20px;
+}
+
+/* NAVIGATION */
+
+ul.main-menu {
+    list-style: none;
+    padding: 0;
+    background-color: #f4f4f4;
+    text-transform: uppercase;
+    text-indent: 10px;
+}
+
+.main-menu a {
+    text-decoration: none;
+    color: #333;
+}
+
+.main-menu a:hover {
+    color: rebeccapurple;
+}
+
+.main-menu a:active {
+    color: red;
+}
+
+/* SECTION */
+
+section p.lead {
+    font-weight: 700;
+    font-size: 20px;
+    color: rebeccapurple;
+}
