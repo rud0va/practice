@@ -104,22 +104,13 @@ ul {
     padding: 15px;
 }
 
-.btn:hover {
-    background-color: #27264b;
-    color: #fff;
-}
-
-.card-pro .btn {
-    background-color: #27264b;
-    color: #fff;
-}
-
+.btn:hover,
 .btn-primary {
     background-color: #27264b;
     color: #fff;
 }
   
-  .btn-primary:hover {
+.btn-primary:hover {
     background-color: #fff;
     color: #27264b;
 }
