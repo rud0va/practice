@@ -1,55 +1,28 @@
-:root {
-  --primary-color: lightblue;
-  --secondary-color: lightcoral;
-  --tertiary-color: lightgreen;
-  --shadow-opacity: 0.4;
-  --container-width: 600px;
-  --container-width-large: 1100px;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  font-family: "Poppins", sans-serif;
-}
-
-header {
-  background-color: var(--primary-color);
-  padding: 20px 0;
-  text-align: center;
-  margin-bottom: 10px;
-}
-
 .container {
-  display: flex;
-  max-width: var(--container-width);
-  margin: 30px auto;
-  gap: 20px;
+  max-width: 900px;
+  margin: 70px auto;
 }
 
-.container-lg {
-  max-width: var(--container-width-large);
-}
+img {
+  max-width: 100%;
+  /* -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  -ms-filter: grayscale(100%); */
+  /* filter: grayscale(100%); */
+  /* filter: blur(5px); */
+  /* filter: brightness(200%); */
+  /* filter: contrast(50%); */
+  /* filter: drop-shadow(10px 10px 5px red); */
+  /* filter: hue-rotate(180deg); */
+  /* filter: invert(100%); */
+  /* filter: opacity(50%); */
+  /* filter: saturate(200%); */
+  /* filter: sepia(100%); */
 
-.box {
-  flex: 1;
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, var(--shadow-opacity));
-}
+  /* Chain Filters */
+  filter: grayscale(100%) blur(5px);
 
-.box-1 {
-  background-color: var(--primary-color);
-}
-
-.box-2 {
-  background-color: var(--secondary-color);
-}
-
-.box-3 {
-  background-color: var(--tertiary-color);
+  /* Reset Filters */
+  filter: none;
 }
